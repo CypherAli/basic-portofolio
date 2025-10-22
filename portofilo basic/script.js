@@ -11,7 +11,7 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 }
 
-// FIX 7: Corrected typo: 'new typed' to 'new Typed'
+
 // The selector '.multiple-text' is correct after the HTML fix.
 const typed = new Typed('.multiple-text', {
     strings: ['Frontend Developer', 'Blockchain Developer', 'web Designer', 'Youtuber'],
@@ -20,3 +20,4 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1200,
     loop: true,
 });
+
